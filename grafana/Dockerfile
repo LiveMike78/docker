@@ -1,4 +1,4 @@
-FROM grafana/grafana
+FROM grafana/grafana:7.5.7
 USER root
 RUN apk update
 RUN apk add npm
